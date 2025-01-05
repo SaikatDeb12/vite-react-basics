@@ -1,12 +1,18 @@
-import Component from './CustomCmp'
+// import Component from './CustomCmp'
+import { useState } from "react";
 function App() {
   return (
-    <>
-      <h1>Hello World</h1>
-      <Component/>
-    </>
+    <div>
+      <input type="text" placeholder="Enter name: "></input>
+      <button>Click Me</button>
+    </div>
+  );
 
-  )
+  // return (
+  //   <>
+  //     <Component />
+  //   </>
+  // );
 }
 
-export default App
+export default App;
